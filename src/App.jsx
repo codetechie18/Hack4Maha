@@ -29,16 +29,7 @@ function App() {
     <>
       {showLoader ? (
         <Loader />
-      ) : showHack4maha ? (
-        <Hack4maha
-          sentence="Hack4Maharashtra"
-          manualMode={false}
-          blurAmount={5}
-          borderColor="red"
-          animationDuration={2}
-          pauseBetweenAnimations={1}
-        />
-      ) : (
+      )  : (
         <div className="app">
         <Hack4maha
         sentence="Hack4Maharashtra"

@@ -13,11 +13,13 @@ const Hack4maha = () => {
 
       {/* ✅ Centered Image */}
       <div className="hack4maha-container" ref={containerRef}>
-        <img
-          src="/img/Hack4Maha.png"
-          alt="Hack4Maha Logo"
-          className="hack4maha-image"
-        />
+        <div className="image-wrapper">
+          <img
+            src="/img/Hack4Maha.png"
+            alt="Hack4Maha Logo"
+            className="hack4maha-image"
+          />
+        </div>
       </div>
 
       {/* ✅ Styles */}
@@ -36,7 +38,8 @@ const Hack4maha = () => {
           left: 0;
           width: 100vw;
           height: 100vh;
-          z-index: 1;
+          z-index: 0;
+          pointer-events: none;
         }
 
         .hack4maha-container {
@@ -45,6 +48,9 @@ const Hack4maha = () => {
           left: 50%;
           transform: translate(-50%, -50%);
           z-index: 10;
+        }
+
+        .image-wrapper {
           display: flex;
           justify-content: center;
           align-items: center;
