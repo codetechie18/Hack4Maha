@@ -3,7 +3,7 @@ import Particles from './Particles'; // ✅ Importing Particles Component
 
 const Hack4maha = ({
   text = 'Hack4Maha',
-  textColor = '#ffffff', // ✅ White text color
+  textColor = 'oklch(64.8% 0.2 131.684)', // ✅ White text color
 }) => {
   const containerRef = useRef(null);
   const titleRef = useRef(null);
@@ -114,6 +114,7 @@ const Hack4maha = ({
         /* ✅ Centered Text */
         .hack4brahma-title {
           font-size: 5vw;
+          font-color: red;
           text-align: center;
           user-select: none;
           font-weight: 100;
@@ -133,7 +134,7 @@ const Hack4maha = ({
         .post-nb {
           font-family: 'Post No Bills Colombo', sans-serif;
           transition: transform 0.2s ease-out;
-          color: green;
+          color: orange;
         }
 
         .large {
