@@ -1,11 +1,10 @@
 @font-face {
-  font-family:Pixelf;
+  font-family: Pixelf;
   src: url("../src/font/PixelifySans-Regular.ttf");
 }
 
 @import "tailwindcss";
 
-
-@theme{
+@theme {
   --font-pixelf: "pixelf", sans-serif;
 }
