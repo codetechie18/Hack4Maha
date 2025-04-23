@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import Particles from './Particles';
+import Particles from '../Particles';
 
 const Hack4maha = () => {
   const containerRef = useRef(null);

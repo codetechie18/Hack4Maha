@@ -1,49 +1,13 @@
-import { useEffect, useState } from 'react';
-import Loader from './components/Loader';
-import Hack4maha from './Hack4maha';
-import './App.css';
+import React from "react";
+import Home from "./Pages/Home";
 
-function App() {
-  const [showLoader, setShowLoader] = useState(true);
-  const [showHack4maha, setShowHack4maha] = useState(false);
-
-  useEffect(() => {
-    // First show loader for 4s
-    const loaderTimeout = setTimeout(() => {
-      setShowLoader(false);
-      setShowHack4maha(true);
-    }, 4000);
-
-    // Optional: hide Hack4maha and show main site after few seconds
-    const hack4mahaTimeout = setTimeout(() => {
-      setShowHack4maha(false);
-    }, 7000); // 4s loader + 3s Hack4maha
-
-    return () => {
-      clearTimeout(loaderTimeout);
-      clearTimeout(hack4mahaTimeout);
-    };
-  }, []);
-
+const App = () => {
   return (
-    <>
-      {showLoader ? (
-        <Loader />
-      )  : (
-        <div className="app">
-        <Hack4maha
-        sentence="Hack4Maharashtra"
-        manualMode={false}
-        blurAmount={5}
-        borderColor="red"
-        animationDuration={2}
-        pauseBetweenAnimations={1}
-      />
-
-        </div>
-      )}
-    </>
+    <div>
+      <Home />
+      <h1 className="text-amber-300 font-Pixelf text-9xl font-bold">Hack4Maha</h1>
+    </div>
   );
-}
+};
 
 export default App;
