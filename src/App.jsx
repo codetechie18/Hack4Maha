@@ -1,13 +1,14 @@
-import React from "react";
-import Home from "./Pages/Home";
+import React from 'react'
 
 const App = () => {
   return (
-    <div>
-      <Home />
-      <h1 className="text-amber-300 font-Pixelf text-9xl font-bold">Hack4Maha</h1>
+    <div className='flex flex-col items-center justify-center h-screen bg-gray-100 font-pixelf'>
+      <h>
+        <span className='text-4xl text-blue-500'>Hello</span>
+        <span className='text-4xl text-red-500'> World!</span>
+      </h>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App

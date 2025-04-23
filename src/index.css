@@ -1,20 +1,11 @@
 @font-face {
-  font-family: Pixelf;
-  src: url("../src/assets/Fonts/PixelifySans-Regular.ttf");
+  font-family:Pixelf;
+  src: url("../src/font/PixelifySans-Regular.ttf");
 }
-
 
 @import "tailwindcss";
 
-@theme{
-  --font-Pixelf: 'Pixelf', sans-serif;
-}
 
-#root, body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-  background-color: black;
+@theme{
+  --font-pixelf: "pixelf", sans-serif;
 }
