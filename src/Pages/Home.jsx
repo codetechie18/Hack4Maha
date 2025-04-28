@@ -11,8 +11,13 @@ const Home = () => {
   return (
     <div className="screen-on">
       {/* Hero Section */}
-      <section className="min-h-[90vh] flex flex-col justify-center items-center relative overflow-hidden"
-      style={{ backgroundImage: 'url(/img/bg1.png)', backgroundSize: 'cover' }}>
+      <section
+        className="min-h-[90vh] flex flex-col justify-center items-center relative overflow-hidden"
+        style={{
+          backgroundImage: "url(/img/bg1.png)",
+          backgroundSize: "cover",
+        }}
+      >
         <div className="absolute top-20 right-20 hidden lg:block">
           <PixelArt type="rocket" size="xl" />
         </div>
@@ -35,15 +40,16 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-संयोजय;नवसृज;विजयी भव;          </motion.p>
+            संयोजय|नवसृज|विजयी भव{" "}
+          </motion.p>
           <motion.p
-            className="text-lg md:text-xl mb-12 max-w-3xl mx-auto text-[#ff5c00]"
+            className="text-lg md:text-xl mb-12 max-w-3xl mx-auto text-[#ff5c00] font-pixel"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.6 }}
           >
-            Join the ultimate hackathon experience where technology meets
-            creativity. Build, innovate, and transform your ideas into reality.
+            Hack. Build. Rise. — Code for Culture, Build for Bharat, Innovate
+            for Maharashtra.
           </motion.p>
 
           <motion.div
@@ -91,16 +97,19 @@ const Home = () => {
                 <div className="absolute -top-6 -right-6">
                   <PixelArt type="planet" size="lg" />
                 </div>
-                <h3 className=" font-pixel text-[#597E1E] mb-4">WHAT IS HACK4MAHA?</h3>
+                <h3 className=" font-pixel text-[#597E1E] mb-4">
+                  WHAT IS HACK4MAHA?
+                </h3>
                 <p className="text-gray-200 mb-4">
-                  Hack4Maha is a 24-hour hackathon where participants come
-                  together to solve challenging problems, learn new
-                  technologies, and build innovative solutions.
+                  Hack4Maha is a 24-hour arcade-themed hackathon where culture
+                  meets code. From the forts of Shivaji Maharaj to the streets
+                  of Mumbai, we honor Maharashtra’s spirit.
                 </p>
                 <p className="text-gray-200 mb-4">
-                  Whether you're a seasoned developer or just starting your
-                  coding journey, Hack4Maha provides the perfect platform to
-                  showcase your skills and creativity.
+                  In one electrifying day, tradition and tech collide to create
+                  tomorrow. Hack for legacy. Build for the future.
+
+                                             
                 </p>
                 <Link
                   to="/about"
