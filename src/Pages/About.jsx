@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
-import SectionTitle from '../components/SectionTitle';
-import PixelArt from '../components/PixelArt';
+import { motion } from "framer-motion";
+import SectionTitle from "../components/SectionTitle";
+import PixelArt from "../components/PixelArt";
 
 const About = () => {
   return (
@@ -8,30 +8,37 @@ const About = () => {
       <section className="py-20">
         <div className="container-custom">
           <SectionTitle>About Hack4Maha</SectionTitle>
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h3 className="font-pixel text-white text-xl mb-6">OUR MISSION</h3>
+              <h3 className="font-pixel text-white text-xl mb-6">
+                OUR MISSION
+              </h3>
               <p className="text-gray-200 mb-4">
-                Hack4Maha is a premier hackathon aimed at bringing together the brightest minds and innovative 
-                thinkers to solve real-world problems through technology. Our mission is to create a platform 
-                where creativity meets technical expertise, resulting in groundbreaking solutions.
+                Hack4Maha is Maharashtra’s biggest 24-hour hackathon, where
+                technology meets tradition. Powered by NariNexus, this
+                arcade-themed hackathon celebrates the spirit of Maharashtra —
+                from the bravery echoing in the stones of Sinhagad, Raigad, and
+                Pratapgad, to the zest of Nagpur’s oranges and the unstoppable
+                creativity of Mumbai’s streets.
               </p>
               <p className="text-gray-200 mb-4">
-                We believe in the power of collaboration, learning, and pushing boundaries. At Hack4Maha, 
-                participants get the opportunity to work with cutting-edge technologies, connect with industry 
-                leaders, and showcase their skills to a global audience.
+                Over 24 electrifying hours, developers, designers, and
+                innovators will tackle challenges that blend cultural richness
+                with futuristic tech. This is more than a hackathon — it’s a
+                code-fest where every click, build, and brainstorm honors
+                Maharashtra’s legacy.
               </p>
               <p className="text-gray-200">
-                Whether you're a seasoned developer, a creative designer, or just starting your tech journey, 
-                Hack4Maha offers an inclusive environment for everyone to contribute, learn, and grow.
+                Get ready to play, hack, and create solutions that are bold,
+                vibrant, and truly Maharashtrian.
               </p>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
@@ -39,31 +46,33 @@ const About = () => {
               className="relative"
             >
               <div className="retro-card p-6">
-                <img 
-                  src="https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                  alt="Hackathon Participants" 
+                <img
+                  src="https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="Hackathon Participants"
                   className="w-full h-auto rounded-lg mb-6"
                 />
                 <div className="absolute -top-6 -right-6">
                   <PixelArt type="star" size="lg" />
                 </div>
-                <h3 className="font-pixel text-cyber-yellow mb-4">WHY PARTICIPATE?</h3>
+                <h3 className="font-pixel text-cyber-yellow mb-4">
+                  WHY PARTICIPATE?
+                </h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <span className="text-neon-pink mr-2">✓</span>
-                    <span>Learn new technologies and enhance your skills</span>
+                    <span>Blend Culture with Code</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-neon-pink mr-2">✓</span>
-                    <span>Network with industry professionals and fellow tech enthusiasts</span>
+                    <span>Experience 24 Hours of Innovation</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-neon-pink mr-2">✓</span>
-                    <span>Win exciting prizes and potential internship opportunities</span>
+                    <span>Grow Your Skills and Network</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-neon-pink mr-2">✓</span>
-                    <span>Build a portfolio-worthy project to showcase to future employers</span>
+                    <span>Create Impact, Win Glory</span>
                   </li>
                 </ul>
               </div>
@@ -71,18 +80,18 @@ const About = () => {
           </div>
         </div>
       </section>
-{/*       
+      {/*       
       <section className="py-20 bg-space-blue/30">
         <div className="container-custom">
           <SectionTitle>The Journey</SectionTitle>
           
           <div className="max-w-4xl mx-auto">
             <div className="relative"> */}
-              {/* Timeline line */}
-              {/* <div className="absolute h-full w-1 bg-cyber-yellow left-1/2 transform -translate-x-1/2"></div> */}
-              
-              {/* Timeline items */}
-              {/* {[
+      {/* Timeline line */}
+      {/* <div className="absolute h-full w-1 bg-cyber-yellow left-1/2 transform -translate-x-1/2"></div> */}
+
+      {/* Timeline items */}
+      {/* {[
                 {
                   year: "2020",
                   title: "The Beginning",
@@ -129,8 +138,8 @@ const About = () => {
                       <p className="text-gray-300 text-sm">{item.description}</p>
                     </div>
                      */}
-                    {/* Timeline dot */}
-                    {/* <div className="absolute w-4 h-4 bg-neon-pink rounded-full left-1/2 transform -translate-x-1/2" style={{ top: `calc(${index * 16 + 8}rem)` }}></div>
+      {/* Timeline dot */}
+      {/* <div className="absolute w-4 h-4 bg-neon-pink rounded-full left-1/2 transform -translate-x-1/2" style={{ top: `calc(${index * 16 + 8}rem)` }}></div>
                   </div>
                 </motion.div>
               ))}
@@ -138,43 +147,49 @@ const About = () => {
           </div>
         </div>
       </section> */}
-      
+
       <section className="py-20">
         <div className="container-custom">
           <SectionTitle>Our Values</SectionTitle>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 title: "Innovation",
-                description: "We believe in pushing the boundaries of what's possible through creative thinking and technological innovation.",
-                icon: "💡"
+                description:
+                  "We believe in pushing the boundaries of what's possible through creative thinking and technological innovation.",
+                icon: "💡",
               },
               {
                 title: "Collaboration",
-                description: "Great ideas emerge when diverse minds come together. We foster a collaborative environment where teamwork thrives.",
-                icon: "🤝"
+                description:
+                  "Great ideas emerge when diverse minds come together. We foster a collaborative environment where teamwork thrives.",
+                icon: "🤝",
               },
               {
                 title: "Inclusion",
-                description: "We're committed to creating a welcoming space for everyone, regardless of background or experience level.",
-                icon: "🌈"
+                description:
+                  "We're committed to creating a welcoming space for everyone, regardless of background or experience level.",
+                icon: "🌈",
               },
               {
                 title: "Learning",
-                description: "Continuous learning is at our core. We provide resources and mentorship to help participants grow their skills.",
-                icon: "📚"
+                description:
+                  "Continuous learning is at our core. We provide resources and mentorship to help participants grow their skills.",
+                icon: "📚",
               },
               {
                 title: "Impact",
-                description: "We focus on solutions that can make a real difference in people's lives and address meaningful challenges.",
-                icon: "🌍"
+                description:
+                  "We focus on solutions that can make a real difference in people's lives and address meaningful challenges.",
+                icon: "🌍",
               },
               {
                 title: "Fun",
-                description: "While we take innovation seriously, we believe the best ideas come when people are enjoying themselves.",
-                icon: "🎮"
-              }
+                description:
+                  "While we take innovation seriously, we believe the best ideas come when people are enjoying themselves.",
+                icon: "🎮",
+              },
             ].map((value, index) => (
               <motion.div
                 key={index}
@@ -185,7 +200,9 @@ const About = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
                 <div className="text-4xl mb-4">{value.icon}</div>
-                <h3 className="font-pixel text-cyber-yellow text-lg mb-3">{value.title}</h3>
+                <h3 className="font-pixel text-cyber-yellow text-lg mb-3">
+                  {value.title}
+                </h3>
                 <p className="text-gray-300">{value.description}</p>
               </motion.div>
             ))}
