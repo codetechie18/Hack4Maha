@@ -150,44 +150,51 @@ const About = () => {
 
       <section className="py-20">
         <div className="container-custom">
-          <SectionTitle>Our Values</SectionTitle>
+          <SectionTitle>Why Trust Us?</SectionTitle>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 title: "Innovation",
                 description:
-                  "We believe in pushing the boundaries of what's possible through creative thinking and technological innovation.",
+                  "At Hack4Maha, 92% of participants praised the quality of our sessions and workshops, showcasing our commitment to creative thinking and breakthrough tech innovation.",
                 icon: "💡",
               },
               {
                 title: "Collaboration",
                 description:
-                  "Great ideas emerge when diverse minds come together. We foster a collaborative environment where teamwork thrives.",
+                  "94% of participants loved the networking opportunities we created, building bridges for future collaborations and shared success stories."
+
+
+,
                 icon: "🤝",
               },
               {
                 title: "Inclusion",
                 description:
-                  "We're committed to creating a welcoming space for everyone, regardless of background or experience level.",
+                  "Hack4Maha is powered by community and inclusivity — with 90% rating their overall experience and satisfaction as excellent, regardless of background or skill level."
+,
+
                 icon: "🌈",
               },
               {
                 title: "Learning",
                 description:
-                  "Continuous learning is at our core. We provide resources and mentorship to help participants grow their skills.",
-                icon: "📚",
+                  "Continuous upskilling matters. 90% of attendees rated our speaker and mentor support as outstanding, helping participants learn, grow, and level up."
+,
+
               },
               {
                 title: "Impact",
                 description:
-                  "We focus on solutions that can make a real difference in people's lives and address meaningful challenges.",
+                  "Thousands joined us for CodeHunt — and 98% applauded our event organization, helping impactful ideas transform into real-world solutions."
+,
                 icon: "🌍",
               },
               {
                 title: "Fun",
                 description:
-                  "While we take innovation seriously, we believe the best ideas come when people are enjoying themselves.",
+                  "Fun is serious business! 97% of participants loved our activities and engagement, proving that innovation thrives where energy and excitement are high.",
                 icon: "🎮",
               },
             ].map((value, index) => (

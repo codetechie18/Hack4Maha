@@ -179,53 +179,8 @@ const Sponsors = () => {
         </div>
       </section>
       
-      <section className="py-16 bg-space-blue/30 relative overflow-hidden">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto text-center">
-            <motion.h3 
-              className="font-pixel text-2xl text-cyber-yellow mb-6"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-            >
-              BECOME A SPONSOR
-            </motion.h3>
-            <motion.p 
-              className="text-lg mb-10"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-            >
-              Interested in sponsoring Hack4Maha? Join our mission to foster innovation and support 
-              the next generation of tech leaders. We offer various sponsorship packages with exclusive benefits.
-            </motion.p>
-            <motion.div
-              className="flex flex-col sm:flex-row items-center justify-center gap-6"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              <a 
-                href="mailto:sponsors@hack4maha.com" 
-                className="arcade-btn"
-              >
-                Contact Us
-              </a>
-              <a 
-                href="/sponsor-deck.pdf" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="btn btn-primary border-2 border-cyber-yellow text-cyber-yellow hover:bg-cyber-yellow/10 font-pixel py-2 px-6 transition-all duration-200"
-              >
-                Sponsorship Deck
-              </a>
-            </motion.div>
-          </div>
-        </div>
-      </section>
+       
+        
     </div>
   );
 };
