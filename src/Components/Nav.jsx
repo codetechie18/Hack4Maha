@@ -5,11 +5,11 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="bg-gray-800 text-white">
+    <nav className="text-[#ff5c00] font-pixelf text-2xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex-shrink-0">
-            <img className="h-8 w-auto" src="/img/hack4maha.webp" alt="Hack4Maha" />
+            <img className="h-10 w-auto" src="/img/Logo.png" alt="" />
           </Link>
           
           {/* Mobile menu button */}
