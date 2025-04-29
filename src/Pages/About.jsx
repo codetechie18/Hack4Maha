@@ -150,7 +150,7 @@ const About = () => {
 
       <section className="py-20">
         <div className="container-custom">
-          <SectionTitle>Why Trust Us?</SectionTitle>
+          <SectionTitle>Why Participate </SectionTitle>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[

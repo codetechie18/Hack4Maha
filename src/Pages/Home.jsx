@@ -218,7 +218,7 @@ const Home = () => {
       </section> */}
 
       {/* CTA Section */}
-      <section className="py-20 bg-space-blue/30 relative overflow-hidden">
+      {/* <section className="py-20 bg-space-blue/30 relative overflow-hidden">
         <div className="absolute top-10 left-10 hidden lg:block">
           <PixelArt type="alien" size="xl" />
         </div>
@@ -248,7 +248,7 @@ const Home = () => {
             </Link>
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* Sponsors Preview */}
       {/* <section className="py-20">
