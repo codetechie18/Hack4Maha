@@ -57,7 +57,7 @@ function App() {
                 <FAQ />
               </motion.div>
             } />
-            <Route path="/prize" element={
+            {/* <Route path="/prize" element={
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -66,8 +66,8 @@ function App() {
               >
                 <Prize />
               </motion.div>
-            } />
-            <Route path="/gallery" element={
+            } /> */}
+            {/* <Route path="/gallery" element={
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -76,8 +76,8 @@ function App() {
               >
                 <Gallery />
               </motion.div>
-            } />
-            <Route path="/sponsors" element={
+            } /> */}
+            {/* <Route path="/sponsors" element={
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -86,8 +86,8 @@ function App() {
               >
                 <Sponsors />
               </motion.div>
-            } />
-            <Route path="/team" element={
+            } /> */}
+            {/* <Route path="/team" element={
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -96,7 +96,7 @@ function App() {
               >
                 <Team />
               </motion.div>
-            } />
+            } /> */}
             <Route path="/register" element={
               <motion.div
                 initial={{ opacity: 0, y: 20 }}

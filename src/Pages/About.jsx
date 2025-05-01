@@ -148,7 +148,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "A 24 Hours Hackathon",
+                title: "Hiring Oppportunities",
                 icon: "💡",
               },
               {
@@ -160,15 +160,15 @@ const About = () => {
                 icon: "🌈",
               },
               {
-                title: "Learning",
-                icon: "🧠",
+                title: "Cahs prizes",
+                icon: "💰",
               },
               {
                 title: "Networking",
                 icon: "🌍",
               },
               {
-                title: "Fun",
+                title: "Game Jam",
                 icon: "🎮",
               },
             ].map((value, index) => (

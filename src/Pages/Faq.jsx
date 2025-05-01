@@ -7,7 +7,7 @@ const FAQ = () => {
   const faqItems = [
     {
       question: "What is Hack4Maha?",
-      answer: "Hack4Maha is a 48-hour hackathon where participants collaborate to build innovative solutions to real-world problems. It's a platform for learning, networking, and showcasing your skills."
+      answer: "Hack4Maha is a 24-hour hackathon where participants collaborate to build innovative solutions to real-world problems. It's a platform for learning, networking, and showcasing your skills."
     },
     {
       question: "Who can participate?",
@@ -19,7 +19,7 @@ const FAQ = () => {
     },
     {
       question: "Do I need a team to participate?",
-      answer: "While we encourage team participation (teams of 2-4 people), you can also register individually. We'll host team-building sessions before the hackathon to help you find teammates."
+      answer: "While we encourage team participation (teams of 2-4 people and a girl teammate is compulsary)."
     },
     {
       question: "What should I bring?",
@@ -58,21 +58,21 @@ const FAQ = () => {
               <PixelArt type="rocket" size="xl" />
             </div>
             
-            <motion.p 
+            {/* <motion.p 
               className="text-center max-w-2xl mx-auto mb-12 text-lg"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
               Got questions about Hack4Maha? We've got answers! Check out our most frequently asked questions below.
-            </motion.p>
+            </motion.p> */}
             
             <FaqAccordion faqItems={faqItems} />
           </div>
         </div>
       </section>
       
-      <section className="py-16 bg-space-blue/30">
+      {/* <section className="py-16 bg-space-blue/30">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <motion.h3 
@@ -117,7 +117,7 @@ const FAQ = () => {
             </motion.div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

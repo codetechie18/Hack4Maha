@@ -83,9 +83,9 @@ const Prize = () => {
             
             <PrizeCard 
               title="RUNNER UP"
-              amount="₹75,000"
+              amount="₹15,000"
               benefits={[
-                "Cash prize of ₹75,000",
+                "Cash prize of ₹15,000",
                 "Official certificates",
                 "Exclusive hackathon merchandise",
                 "Feature on our website and social media"
@@ -95,9 +95,9 @@ const Prize = () => {
             
             <PrizeCard 
               title="GRAND CHAMPION"
-              amount="₹2,00,000"
+              amount="₹20,000"
               benefits={[
-                "Cash prize of ₹2,00,000",
+                "Cash prize of ₹20,000",
                 "Potential internship opportunities",
                 "Mentorship from industry experts",
                 "Exclusive hackathon merchandise",
@@ -110,9 +110,9 @@ const Prize = () => {
             
             <PrizeCard 
               title="SECOND RUNNER UP"
-              amount="₹50,000"
+              amount="₹10,000"
               benefits={[
-                "Cash prize of ₹50,000",
+                "Cash prize of ₹10,000",
                 "Official certificates",
                 "Exclusive hackathon merchandise",
                 "Feature on our website and social media"
@@ -145,37 +145,37 @@ const Prize = () => {
               {[
                 {
                   title: "Best UI/UX Design",
-                  prize: "₹25,000 + Design Software Subscriptions",
+                  prize: "₹15,000 + Design Software Subscriptions",
                   logo: "🎨",
                   sponsor: "Design Studio",
                 },
                 {
                   title: "Best Use of AI",
-                  prize: "₹30,000 + Cloud Credits",
+                  prize: "₹10,000 + Cloud Credits",
                   logo: "🤖",
                   sponsor: "AI Solutions",
                 },
                 {
                   title: "Most Innovative Idea",
-                  prize: "₹25,000 + Innovation Mentorship",
+                  prize: "₹5,000 + Innovation Mentorship",
                   logo: "💡",
                   sponsor: "Idea Labs",
                 },
                 {
                   title: "Social Impact Award",
-                  prize: "₹25,000 + NGO Partnership",
+                  prize: "₹3,000 + NGO Partnership",
                   logo: "🌍",
                   sponsor: "Impact Foundation",
                 },
                 {
                   title: "Best Freshman Team",
-                  prize: "₹15,000 + Educational Resources",
+                  prize: "₹3,000 + Educational Resources",
                   logo: "🎓",
                   sponsor: "Learn Tech",
                 },
                 {
                   title: "Best Mobile App",
-                  prize: "₹25,000 + App Store Features",
+                  prize: "₹3,000 + App Store Features",
                   logo: "📱",
                   sponsor: "Mobile Masters",
                 },

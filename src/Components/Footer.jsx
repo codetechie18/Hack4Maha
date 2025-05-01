@@ -37,23 +37,23 @@ const Footer = () => {
         
         <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-8">
           <div>
-            <h4 className="font-pixel text-[#ff5c00] text-sm mb-4">Quick Links</h4>
+            {/* <h4 className="font-pixel text-[#ff5c00] text-sm mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li><a href="/" className="text-gray-300 hover:text-blue-800 transition-all duration-200 hover:pl-1">Home</a></li>
               <li><a href="/about" className="text-gray-300 hover:text-blue-800  transition-all duration-200 hover:pl-1">About</a></li>
               <li><a href="/faq" className="text-gray-300 hover:text-blue-800  transition-all duration-200 hover:pl-1">FAQ</a></li>
               <li><a href="/prize" className="text-gray-300 hover:text-blue-800  transition-all duration-200 hover:pl-1">Prizes</a></li>
-            </ul>
+            </ul> */}
           </div>
           
           <div>
-            <h4 className="font-pixel text-[#ff5c00] text-sm mb-4">Resources</h4>
+            {/* <h4 className="font-pixel text-[#ff5c00] text-sm mb-4">Resources</h4>
             <ul className="space-y-2">
               <li><a href="/sponsors" className="text-gray-300 hover:text-blue-800  transition-all duration-200 hover:pl-1">Sponsors</a></li>
               <li><a href="/team" className="text-gray-300 hover:text-blue-800  transition-all duration-200 hover:pl-1">Team</a></li>
               <li><a href="/gallery" className="text-gray-300 hover:text-blue-800  transition-all duration-200 hover:pl-1">Gallery</a></li>
               <li><a href="/code-of-conduct" className="text-gray-300 hover:text-blue-800  transition-all duration-200 hover:pl-1">Code of Conduct</a></li>
-            </ul>
+            </ul> */}
           </div>
           
           <div>
