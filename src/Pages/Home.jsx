@@ -13,10 +13,10 @@ const Home = () => {
       {/* Hero Section */}
       <section
         className="min-h-[90vh] flex flex-col justify-center items-center relative overflow-hidden"
-        style={{
-          backgroundImage: "url(/img/bg1.png)",
-          backgroundSize: "cover",
-        }}
+        // style={{
+        //   backgroundImage: "url(/img/bg1.png)",
+        //   backgroundSize: "cover",
+        // }}
       >
         <div className="absolute top-20 right-20 hidden lg:block">
           <PixelArt type="rocket" size="xl" />
@@ -31,11 +31,13 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <h1 className="text-3xl md:text-5xl lg:text-6xl mb-4 leading-tight text-[#ff5c00]">
-            Hack4Maha
+          <h1 className="text-3xl md:text-5xl lg:text-6xl mb-4 leading-tight">
+            <span style={{ color: "#199b1f" }}>Hack</span>
+            <span style={{ color: "#ff5c00" }}>4Maha</span>
           </h1>
+
           <motion.p
-            className="text-xl md:text-2xl font-pixel mb-8 text-[#597E1E]"
+            className="text-xl md:text-2xl font-pixel mb-8 text-[#379b19]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
@@ -48,8 +50,7 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.6 }}
           >
-            Hack. Build. Rise. — Code for Culture, Build for Bharat, Innovate
-            for Maharashtra.
+            Central India's 24 Hours Premiere Hackathon
           </motion.p>
 
           <motion.div
@@ -94,8 +95,12 @@ const Home = () => {
               transition={{ duration: 0.6 }}
             >
               <div className="retro-card p-6 relative">
-                <div className="absolute -top-6 -right-6">
-                  <PixelArt type="planet" size="lg" />
+                <div className="absolute -top-6 -right-6 z-10">
+                  <img
+                    src="/img/orange.png"
+                    alt="Orange Icon"
+                    className="w-20 h-30 object-contain"
+                  />
                 </div>
                 <h3 className=" font-pixel text-[#597E1E] mb-4">
                   WHAT IS HACK4MAHA?
@@ -108,29 +113,15 @@ const Home = () => {
                 <p className="text-gray-200 mb-4">
                   In one electrifying day, tradition and tech collide to create
                   tomorrow. Hack for legacy. Build for the future.
-
-                                             
                 </p>
-                <Link
-                  to="/about"
-                  className="transition-colors duration-300 font-bold flex items-center"
-                >
-                  Read more about us
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
-                </Link>
+                <p className="text-gray-200 mb-4">
+                  Hack4Maha is Maharashtra’s biggest 24-hour hackathon, where
+                  technology meets tradition. Powered by NariNexus, this
+                  arcade-themed hackathon celebrates the spirit of Maharashtra —
+                  from the bravery echoing in the stones of Sinhagad, Raigad,
+                  and Pratapgad, to the zest of Nagpur’s oranges and the
+                  unstoppable creativity of Mumbai’s streets.
+                </p>
               </div>
             </motion.div>
 

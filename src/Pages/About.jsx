@@ -6,75 +6,68 @@ const About = () => {
   return (
     <div className="screen-on">
       <section className="py-20">
-        <div className="container-custom">
-          <SectionTitle>About Hack4Maha</SectionTitle>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="container-custom text-[#ff5c00]">
+          <SectionTitle className="">About The Hack4Maha</SectionTitle>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6 }}
             >
-              <h3 className="font-pixel text-white text-xl mb-6">
-                OUR MISSION
-              </h3>
-              <p className="text-gray-200 mb-4">
-                Hack4Maha is Maharashtra’s biggest 24-hour hackathon, where
-                technology meets tradition. Powered by NariNexus, this
-                arcade-themed hackathon celebrates the spirit of Maharashtra —
-                from the bravery echoing in the stones of Sinhagad, Raigad, and
-                Pratapgad, to the zest of Nagpur’s oranges and the unstoppable
-                creativity of Mumbai’s streets.
-              </p>
-              <p className="text-gray-200 mb-4">
-                Over 24 electrifying hours, developers, designers, and
-                innovators will tackle challenges that blend cultural richness
-                with futuristic tech. This is more than a hackathon — it’s a
-                code-fest where every click, build, and brainstorm honors
-                Maharashtra’s legacy.
-              </p>
-              <p className="text-gray-200">
-                Get ready to play, hack, and create solutions that are bold,
-                vibrant, and truly Maharashtrian.
-              </p>
+              <div className="retro-card p-6 relative">
+                <div className="absolute -top-6 -right-6 z-10">
+                  <img
+                    src="/img/orange.png"
+                    alt="Orange Icon"
+                    className="w-20 h-30 object-contain"
+                  />
+                </div>
+                <h3 className=" font-pixel text-[#597E1E] mb-4">
+                  WHAT IS HACK4MAHA?
+                </h3>
+                <p className="text-gray-200 mb-4">
+                  Hack4Maha is a 24-hour arcade-themed hackathon where culture
+                  meets code. From the forts of Shivaji Maharaj to the streets
+                  of Mumbai, we honor Maharashtra’s spirit.
+                </p>
+                <p className="text-gray-200 mb-4">
+                  In one electrifying day, tradition and tech collide to create
+                  tomorrow. Hack for legacy. Build for the future.
+                </p>
+                <p className="text-gray-200 mb-4">
+                  Hack4Maha is Maharashtra’s biggest 24-hour hackathon, where
+                  technology meets tradition. Powered by NariNexus, this
+                  arcade-themed hackathon celebrates the spirit of Maharashtra —
+                  from the bravery echoing in the stones of Sinhagad, Raigad,
+                  and Pratapgad, to the zest of Nagpur’s oranges and the
+                  unstoppable creativity of Mumbai’s streets.
+                </p>
+              </div>
             </motion.div>
 
             <motion.div
               initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="relative"
+              className="grid grid-cols-2 gap-6"
             >
-              <div className="retro-card p-6">
-                <img
-                  src="https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                  alt="Hackathon Participants"
-                  className="w-full h-auto rounded-lg mb-6"
-                />
-                <div className="absolute -top-6 -right-6">
-                  <PixelArt type="star" size="lg" />
-                </div>
-                <h3 className="font-pixel text-cyber-yellow mb-4">
-                  WHY PARTICIPATE?
-                </h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <span className="text-neon-pink mr-2">✓</span>
-                    <span>Blend Culture with Code</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-neon-pink mr-2">✓</span>
-                    <span>Experience 24 Hours of Innovation</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-neon-pink mr-2">✓</span>
-                    <span>Grow Your Skills and Network</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-neon-pink mr-2">✓</span>
-                    <span>Create Impact, Win Glory</span>
-                  </li>
-                </ul>
+              <div className="retro-card p-4 text-center">
+                <h3 className="text-2xl font-pixel text-white  mb-2">5000+</h3>
+                <p className=" font-pixel text-sm">REGISTRATION</p>
+              </div>
+              <div className="retro-card p-4 text-center">
+                <h3 className="text-2xl font-pixel text-white  mb-2">75+</h3>
+                <p className=" font-pixel text-sm">PROJECT</p>
+              </div>
+              <div className="retro-card p-4 text-center">
+                <h3 className="text-2xl font-pixel text-white mb-2">40+</h3>
+                <p className="font-pixel text-sm">COMMUNITY PARTNERS</p>
+              </div>
+              <div className="retro-card p-4 text-center">
+                <h3 className="text-2xl font-pixel text-white mb-2">20+</h3>
+                <p className=" font-pixel text-sm">SPEAKERS</p>
               </div>
             </motion.div>
           </div>
@@ -150,67 +143,47 @@ const About = () => {
 
       <section className="py-20">
         <div className="container-custom">
-          <SectionTitle>Why Participate </SectionTitle>
+          <SectionTitle>Why Participate</SectionTitle>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Innovation",
-                description:
-                  "At Hack4Maha, 92% of participants praised the quality of our sessions and workshops, showcasing our commitment to creative thinking and breakthrough tech innovation.",
+                title: "A 24 Hours Hackathon",
                 icon: "💡",
               },
               {
-                title: "Collaboration",
-                description:
-                  "94% of participants loved the networking opportunities we created, building bridges for future collaborations and shared success stories."
-
-
-,
-                icon: "🤝",
+                title: "Free Food For All",
+                icon: "🍽️",
               },
               {
-                title: "Inclusion",
-                description:
-                  "Hack4Maha is powered by community and inclusivity — with 90% rating their overall experience and satisfaction as excellent, regardless of background or skill level."
-,
-
+                title: "Jamming Session",
                 icon: "🌈",
               },
               {
                 title: "Learning",
-                description:
-                  "Continuous upskilling matters. 90% of attendees rated our speaker and mentor support as outstanding, helping participants learn, grow, and level up."
-,
-
+                icon: "🧠",
               },
               {
-                title: "Impact",
-                description:
-                  "Thousands joined us for CodeHunt — and 98% applauded our event organization, helping impactful ideas transform into real-world solutions."
-,
+                title: "Networking",
                 icon: "🌍",
               },
               {
                 title: "Fun",
-                description:
-                  "Fun is serious business! 97% of participants loved our activities and engagement, proving that innovation thrives where energy and excitement are high.",
                 icon: "🎮",
               },
             ].map((value, index) => (
               <motion.div
                 key={index}
-                className="retro-card p-6"
+                className="retro-card p-6 flex flex-col items-center text-center"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
                 <div className="text-4xl mb-4">{value.icon}</div>
-                <h3 className="font-pixel text-cyber-yellow text-lg mb-3">
+                <h3 className="font-pixel text-[#ff5c00] text-lg mb-3">
                   {value.title}
                 </h3>
-                <p className="text-gray-300">{value.description}</p>
               </motion.div>
             ))}
           </div>
