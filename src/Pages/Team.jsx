@@ -25,7 +25,7 @@ const TeamMember = ({ member, index }) => {
                 href={member.twitter}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-cyber-yellow transition-colors duration-300"
+                className="text-white hover:text-[#1DA1F2] transition-colors duration-300"
               >
                 <FaTwitter size={20} />
               </a>
@@ -35,7 +35,7 @@ const TeamMember = ({ member, index }) => {
                 href={member.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-cyber-yellow transition-colors duration-300"
+                className="text-white hover:text-[#] transition-colors duration-300"
               >
                 <FaGithub size={20} />
               </a>
@@ -45,7 +45,7 @@ const TeamMember = ({ member, index }) => {
                 href={member.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-cyber-yellow transition-colors duration-300"
+                className="text-white hover:text-blue-600 transition-colors duration-300"
               >
                 <FaLinkedinIn size={20} />
               </a>
@@ -53,10 +53,10 @@ const TeamMember = ({ member, index }) => {
           </div>
         </div>
       </div>
-      <h3 className="font-pixel text-cyber-yellow text-lg mb-1">
+      <h3 className="font-pixel text-[#ff5c00] mb-1 text-sm aliiign-center justify-center">
         {member.name}
       </h3>
-      <p className="text-neon-pink text-sm mb-3">{member.role}</p>
+      {/* <p className="text-neon-pink text-sm mb-3">{member.role}</p> */}
       {/* <p className="text-sm text-gray-300">{member.bio}</p> */}
     </motion.div>
   );
@@ -66,97 +66,97 @@ const Team = () => {
   const teamData = {
     organizing: [
       {
-        name: " ",
-        role: "Marketing Lead",
+        name: "Sujal khade",
+        role: "",
         // bio: "Digital marketing strategist with a passion for technology and community building.",
         photo:
-          " ",
-        twitter: "https://twitter.com",
-        linkedin: "https://linkedin.com",
+          "/img/org/sujal.png",
+        twitter: "https://x.com/CodeTechie43?t=mTB5xj5Xm0mxEtD78UeReQ&s=09",
+        linkedin: "https://www.linkedin.com/in/sujal-khade-2823a32a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
-        name: "Raj Mehta",
-        role: "Content Creator",
+        name: "Kritika Rukhiyana",
+        role: "",
         // bio: "Storyteller creating compelling content across digital platforms to spread the word.",
         photo:
-          " ",
-        twitter: "https://twitter.com",
-        linkedin: "https://linkedin.com",
+          "/img/org/kritika.png", 
+        twitter: "https://x.com/Kritika8924",
+        linkedin: "https://www.linkedin.com/in/kritika-rukhiyana-65a28a307",
       },
       {
-        name: "Shreya Das",
-        role: "Social Media Manager",
-        // bio: "Building online communities and managing social media presence for maximum engagement.",
-        photo:
-          " ",
-        twitter: "https://twitter.com",
-        linkedin: "https://linkedin.com",
-      },
-      {
-        name: "Rahul Sharma",
-        role: "Hackathon Director",
+        name: "Rishu Singh",
+        role: "",
         // bio: "Tech enthusiast with 10+ years of experience organizing hackathons and tech events.",
         photo:
-          " ",
-        twitter: "https://twitter.com",
-        github: "https://github.com",
-        linkedin: "https://linkedin.com",
+          "/img/org/rishu.png",
+        twitter: "https://x.com/rishuksingh",
+        // github: "https://github.com",
+        linkedin: "https://www.linkedin.com/in/rishukrsingh/",
       },
       {
-        name: "Priya Patel",
-        role: "Operations Lead",
+        name: "Sunidhi Haware",
+        role: "",
         // bio: "Event management specialist ensuring smooth execution of all hackathon operations.",
         photo:
-          " ",
-        twitter: "https://twitter.com",
-        linkedin: "https://linkedin.com",
+          "/img/org/sunidhi.png",
+        twitter: "https://x.com/Sunidhi_vj",
+        linkedin: "https://www.linkedin.com/in/sunidhi-haware-797a97323",
       },
       {
-        name: "Amit Kumar",
-        role: "Technical Lead",
-        // bio: "Full-stack developer and cloud architect handling technical infrastructure.",
+        name: "Pradhunya Gawande",
+        role: "",
+        // bio: "Building online communities and managing social media presence for maximum engagement.",
         photo:
-          " ",
-        github: "https://github.com",
-        linkedin: "https://linkedin.com",
+          "/img/org/pradhunya.png",
+        twitter: "https://x.com/pradhunya_patil",
+        linkedin: "https://www.linkedin.com/in/pradhunya-gawande",
       },
-      {
-        name: "Neha Gupta",
-        role: "Partnerships Manager",
-        // bio: "Connecting companies with talented developers and fostering valuable partnerships.",
-        photo:
-          " ",
-        twitter: "https://twitter.com",
-        linkedin: "https://linkedin.com",
-      },
-      {
-        name: "Rohan Joshi",
-        role: "Full-Stack Developer",
-        // bio: "JavaScript enthusiast specializing in React and Node.js development.",
-        photo:
-          " ",
-        github: "https://github.com",
-        twitter: "https://twitter.com",
-        linkedin: "https://linkedin.com",
-      },
-      {
-        name: "Zara Khan",
-        role: "UI/UX Designer",
-        // bio: "Creating delightful user experiences that bring joy to digital interactions.",
-        photo:
-          " ",
-        twitter: "https://twitter.com",
-        linkedin: "https://linkedin.com",
-      },
-      {
-        name: "Vikram Singh",
-        role: "DevOps Engineer",
-        // bio: "Infrastructure specialist ensuring hackathon systems run smoothly.",
-        photo:
-          " ",
-        github: "https://github.com",
-        linkedin: "https://linkedin.com",
-      },
+      // {
+      //   name: "Amit Kumar",
+      //   role: "Technical Lead",
+      //   // bio: "Full-stack developer and cloud architect handling technical infrastructure.",
+      //   photo:
+      //     " ",
+      //   github: "https://github.com",
+      //   linkedin: "https://linkedin.com",
+      // },
+      // {
+      //   name: "Neha Gupta",
+      //   role: "Partnerships Manager",
+      //   // bio: "Connecting companies with talented developers and fostering valuable partnerships.",
+      //   photo:
+      //     " ",
+      //   twitter: "https://twitter.com",
+      //   linkedin: "https://linkedin.com",
+      // },
+      // {
+      //   name: "Rohan Joshi",
+      //   role: "Full-Stack Developer",
+      //   // bio: "JavaScript enthusiast specializing in React and Node.js development.",
+      //   photo:
+      //     " ",
+      //   github: "https://github.com",
+      //   twitter: "https://twitter.com",
+      //   linkedin: "https://linkedin.com",
+      // },
+      // {
+      //   name: "Zara Khan",
+      //   role: "UI/UX Designer",
+      //   // bio: "Creating delightful user experiences that bring joy to digital interactions.",
+      //   photo:
+      //     " ",
+      //   twitter: "https://twitter.com",
+      //   linkedin: "https://linkedin.com",
+      // },
+      // {
+      //   name: "Vikram Singh",
+      //   role: "DevOps Engineer",
+      //   // bio: "Infrastructure specialist ensuring hackathon systems run smoothly.",
+      //   photo:
+      //     " ",
+      //   github: "https://github.com",
+      //   linkedin: "https://linkedin.com",
+      // },
     ],
     // tech: [
 
@@ -187,7 +187,7 @@ const Team = () => {
             </div>
 
             <div className="mb-16">
-              <motion.h3
+              {/* <motion.h3
                 className="font-pixel text-neon-pink text-xl mb-8"
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -195,10 +195,10 @@ const Team = () => {
                 transition={{ duration: 0.5 }}
               >
                 ORGANIZING TEAM
-              </motion.h3>
+              </motion.h3> */}
 
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                {teamData.organizing.map((member, index) => (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+                                {teamData.organizing.map((member, index) => (
                   <TeamMember key={index} member={member} index={index} />
                 ))}
               </div>
