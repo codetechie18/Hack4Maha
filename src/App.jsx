@@ -1,14 +1,14 @@
 import { Routes, Route } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
 import FAQ from './pages/FAQ'
 import Prize from './pages/Prize'
 import Gallery from './pages/Gallery'
 import Sponsors from './pages/Sponsors'
-import Team from './pages/Team'
+import Team from './Pages/Team'
 import Register from './pages/Register'
 import ScrollToTop from './components/ScrollToTop'
 
@@ -57,7 +57,7 @@ function App() {
                 <FAQ />
               </motion.div>
             } />
-            <Route path="/prize" element={
+            {/* <Route path="/prize" element={
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -66,8 +66,8 @@ function App() {
               >
                 <Prize />
               </motion.div>
-            } />
-            <Route path="/gallery" element={
+            } /> */}
+            {/* <Route path="/gallery" element={
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -76,8 +76,8 @@ function App() {
               >
                 <Gallery />
               </motion.div>
-            } />
-            <Route path="/sponsors" element={
+            } /> */}
+            {/* <Route path="/sponsors" element={
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -86,7 +86,7 @@ function App() {
               >
                 <Sponsors />
               </motion.div>
-            } />
+            } /> */}
             <Route path="/team" element={
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
