@@ -37,7 +37,7 @@ const Home = () => {
           </h1>
 
           <motion.p
-            className="text-xl md:text-2xl font-pixel mb-8 text-white"
+            className="text-xl md:text-2xl font-pixel mb-8 text-whitenpm "
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
