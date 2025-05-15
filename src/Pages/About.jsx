@@ -162,7 +162,7 @@ const About = () => {
                 icon: "🌈",
               },
               {
-                title: "Cahs prizes",
+                title: "Cash prizes",
                 icon: "💰",
               },
               {
