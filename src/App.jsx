@@ -77,7 +77,7 @@ function App() {
                 <Gallery />
               </motion.div>
             } /> */}
-            {/* <Route path="/sponsors" element={
+            <Route path="/sponsors" element={
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -86,7 +86,7 @@ function App() {
               >
                 <Sponsors />
               </motion.div>
-            } /> */}
+            } />
             <Route path="/team" element={
               <motion.div
                 initial={{ opacity: 0, y: 20 }}

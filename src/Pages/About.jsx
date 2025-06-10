@@ -9,6 +9,8 @@ import {
   BookOpen,
   Globe,
 } from "lucide-react";
+import Upcoming from "../Pages/Upcoming";
+
 
 const About = () => {
   return (
@@ -305,6 +307,9 @@ const About = () => {
     </div>
   </div>
 </section>
+
+<Upcoming />
+
 
 
     </div>
