@@ -23,8 +23,10 @@ function App() {
       <main className="flex-grow pt-20 z-10">
         <section id="home"><Home /></section>
         <section id="about"><About /></section>
+        {/* <section id="sponsors"><Sponsors /></section> */}
         <section id="team"><Team /></section>
         <section id="faq"><FAQ /></section>
+
         {/* <section id="prize"><Prize /></section>
         <section id="gallery"><Gallery /></section>
         <section id="sponsors"><Sponsors /></section>
