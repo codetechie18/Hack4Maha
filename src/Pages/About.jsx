@@ -17,7 +17,8 @@ const About = () => {
     <div className="screen-on">
       <section className="py-20">
         <div className="container-custom text-[#ff5c00]">
-          <SectionTitle className="">About The Hack4Maha</SectionTitle>
+          <SectionTitle centered={true} containerClass="mb-10 text-lg">About The Hack4Maha</SectionTitle>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, x: -50 }}

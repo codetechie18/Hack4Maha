@@ -2,6 +2,7 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Home from './Pages/Home';
 import About from './Pages/About';
+import Tracks from './Pages/Tracks';
 import FAQ from './Pages/FAQ';
 import Prize from './Pages/Prize';
 import Gallery from './Pages/Gallery';
@@ -24,8 +25,9 @@ function App() {
         <section id="home"><Home /></section>
         <section id="about"><About /></section>
         {/* <section id="sponsors"><Sponsors /></section> */}
-        <section id="team"><Team /></section>
+       <section id="tracks"><Tracks /></section>
         <section id="faq"><FAQ /></section>
+        <section id="team"><Team /></section>
 
         {/* <section id="prize"><Prize /></section>
         <section id="gallery"><Gallery /></section>
